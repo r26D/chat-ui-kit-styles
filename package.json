@@ -47,6 +47,7 @@
     "build:autoprefixer": "postcss dist/**/*.css -r -m --no-map --use autoprefixer",
     "build:sass": "node ./scripts/build-all",
     "build": "npm-run-all -s build:clean build:sass build:autoprefixer",
+    "prepare": "npm run build",
     "pack": "yarn pack",
     "watch": "chokidar 'themes/**/*.scss' -c 'npm-run-all -s build:sass build:autoprefixer'"
   },
