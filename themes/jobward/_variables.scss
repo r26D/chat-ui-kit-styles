@@ -23,25 +23,27 @@ $grid-breakpoints: (
 // Default font family
 //
 
-$default-font-family: Helvetica Neue, Segoe UI, Helvetica, Arial, sans-serif;
+$default-font-family: IBM Plex Sans, Segoe UI, Helvetica, Arial, sans-serif;
 
 // Colors
 //
 
-$color-primary: #ff0000 !default;
-$color-primary-light: #f6fbff !default;
-$color-primary-dark: #6ea9d7 !default;
+//$color-primary: #06b6d4 !default; // primary.500
+$color-primary: #DFDEF0 !default; // primary.500
+$color-primary-light: #cffafe !default; // primary.100
+//$color-primary-dark: #164e63 !default; // primary.900
+$color-primary-dark: #E2FEF4 !default; // primary.900
 $color-primary-dark: #6EAAD8 !default;
 
-$color-secondary: #00ff00 !default;
-$color-secondary-light: #C2F9F9 !default;
-$color-secondary-dark: #64D3D3 !default;
+$color-secondary: #ec4899 !default; // secondary.500
+$color-secondary-light: #fce7f3 !default;
+$color-secondary-dark: #831843 !default;
 
 // Material text colors
 // http://marcodiiga.github.io/rgba-to-rgb-conversion
 // Hex values are calculated based on white background 
 // If you change background color rgb color will change, that is why its better to use rgba with opacity!
-$color-text: rgba(0, 0, 0, .87) !default; // #212121
+$color-text: #71717a !default; // /gray.500
 $color-text-medium: rgba(0, 0, 0, .60) !default; // #666666
 $color-text-disabled: rgba(0, 0, 0, .38) !default; // #9e9e9e
 $color-text-inverted: invert($color-text); 
@@ -521,7 +523,7 @@ $message-font-size: 1em !default;
 $message-font-family: $default-font-family !default;
 
 $message-content-font-family: $default-font-family !default;
-$message-content-font-weight: normal !default;
+$message-content-font-weight: 200 !default;
 $message-content-font-size: 0.91em !default;
 $message-content-font-variant: normal !default;
 
@@ -670,7 +672,7 @@ $message-list-message-separator-margin-top: 1.2em !default;
 //
 
 // Colors
-$message-separator-color: $color-primary-dark !default;
+$message-separator-color: $color-primary !default;
 $message-separator-bg-color: $default-bg-color !default;
 $message-separator-font-size: 0.8em !default;
 $message-separator-font-family: $default-font-family !default;
