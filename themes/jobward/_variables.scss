@@ -29,6 +29,8 @@ $default-font-family: IBM Plex Sans, Segoe UI, Helvetica, Arial, sans-serif;
 //
 $teal2: #4EBD94 !default;
 
+$gray1: #F7F8F9 !default;
+$gray2: #C3C3C3 !default;
 $gray3: #8E8D8D !default;
 
 //$color-primary: #06b6d4 !default; // primary.500
@@ -626,7 +628,7 @@ $message-input-content-editor-border-left: $message-input-content-editor-border-
 // Colors
 $message-input-bg-color: $default-bg-color !default;
 $message-input-content-editor-color: $color-text !default;
-$message-input-content-editor-wrapper-bg-color: #fafafa !default;
+$message-input-content-editor-wrapper-bg-color: $gray1 !default;
 $message-input-content-editor-container-bg-color: $message-input-content-editor-wrapper-bg-color !default;
 $message-input-content-editor-bg-color: $message-input-content-editor-wrapper-bg-color !default;
 $message-input-content-editor-disabled-color: $color-text-medium !default;
