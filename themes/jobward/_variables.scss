@@ -27,6 +27,7 @@ $default-font-family: IBM Plex Sans, Segoe UI, Helvetica, Arial, sans-serif;
 
 // Colors
 //
+$teal2: #4EBD94 !default;
 
 //$color-primary: #06b6d4 !default; // primary.500
 $color-primary: #DFDEF0 !default; // primary.500
@@ -127,7 +128,7 @@ $button-border: solid 1px $default-border-color !default;
 $button-border-radius: $default-border-radius !default;
 
 // Colors
-$button-color: $color-primary-dark !default;
+$button-color: $teal2 !default;
 $button-bg-color: transparent !default;
 
 // Fonts
@@ -230,7 +231,7 @@ $conversation-bg-color: $default-bg-color !default;
 $conversation-unread-color: $color-white !default;
 $conversation-unread-bg-color: $color-danger !default;
 $conversation-hover-bg-color: $color-bg-hover !default;
-$conversation-unread-dot-color: #2e63e8 !default;
+$conversation-unread-dot-color: $color-danger !default;
 $conversation-name-color: $color-text !default;
 $conversation-name-activated-color: $color-activated !default;
 $conversation-info-color: $color-text-medium !default;
@@ -250,7 +251,7 @@ $conversation-activated-font-weight: normal !default;
 $conversation-name-activated-font-weight: normal !default;
 
 // Sizes
-$conversation-unread-dot-width: 0.7em !default;
+$conversation-unread-dot-width: 0.9em !default;
 
 // Spacing
 $conversation-operations-margin: 0 0 0 auto !default;
@@ -586,6 +587,7 @@ $message-group-header-font-size: 0.8em !default;
 $message-group-header-font-family: $default-font-family !default;
 
 $message-group-footer-font-size: 0.8em !default;
+$message-group-footer-font-family: $default-font-family !default;
 $message-group-footer-font-family: $default-font-family !default;
 
 // Spacing
