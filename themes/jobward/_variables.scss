@@ -29,6 +29,8 @@ $default-font-family: IBM Plex Sans, Segoe UI, Helvetica, Arial, sans-serif;
 //
 $teal2: #4EBD94 !default;
 
+$gray3: #8E8D8D !default;
+
 //$color-primary: #06b6d4 !default; // primary.500
 $color-primary: #DFDEF0 !default; // primary.500
 $color-primary-light: #cffafe !default; // primary.100
@@ -234,7 +236,7 @@ $conversation-hover-bg-color: $color-bg-hover !default;
 $conversation-unread-dot-color: $color-danger !default;
 $conversation-name-color: $color-text !default;
 $conversation-name-activated-color: $color-activated !default;
-$conversation-info-color: $color-text-medium !default;
+$conversation-info-color: $gray3 !default;
 $conversation-info-activated-color: $color-activated !default;
 $conversation-active-color: $conversation-color !default;
 $conversation-active-bg-color: $color-bg-active !default;
@@ -245,13 +247,13 @@ $conversation-activated-bg-color: $color-bg-activated !default;
 $conversation-font-family: $default-font-family !default;
 $conversation-unread-font-size: 0.75em !default;
 $conversation-last-sender-name-font-weight: normal !default;
-$conversation-info-content-font-weight: normal !default;
+$conversation-info-content-font-weight: light !default;
 $conversation-info-activated-font-weight: normal !default;
 $conversation-activated-font-weight: normal !default;
 $conversation-name-activated-font-weight: normal !default;
 
 // Sizes
-$conversation-unread-dot-width: 0.9em !default;
+$conversation-unread-dot-width: 0.7em !default;
 
 // Spacing
 $conversation-operations-margin: 0 0 0 auto !default;
@@ -269,7 +271,7 @@ $conversation-header-border-bottom: solid 1px $default-border-color !default;
 $conversation-header-border-left: solid 0px $default-border-color !default;
 
 // Colors
-$conversation-header-bg-color: $color-primary-light !default;
+$conversation-header-bg-color: transparent !default;
 $conversation-header-color: color-by-background($conversation-header-bg-color, $color-text, $color-text-inverted) !default;
 $conversation-header-user-name-color: $conversation-header-color !default;
 $conversation-header-user-name-bg-color: $conversation-header-bg-color !default;
