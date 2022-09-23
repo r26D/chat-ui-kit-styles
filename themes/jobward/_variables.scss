@@ -269,16 +269,16 @@ $chat-container-input-toolbox-padding: 0 0.8em 0.17em 0 !default;
 // Borders
 $conversation-header-border-top: solid 0px $default-border-color !default;
 $conversation-header-border-right: solid 0px $default-border-color !default;
-$conversation-header-border-bottom: solid 1px $default-border-color !default;
+$conversation-header-border-bottom: solid 0px $default-border-color !default;
 $conversation-header-border-left: solid 0px $default-border-color !default;
 
 // Colors
 $conversation-header-bg-color: transparent !default;
 $conversation-header-color: color-by-background($conversation-header-bg-color, $color-text, $color-text-inverted) !default;
 $conversation-header-user-name-color: $conversation-header-color !default;
-$conversation-header-user-name-bg-color: $conversation-header-bg-color !default;
+$conversation-header-user-name-bg-color: $conversation-header-color !default;
 $conversation-header-info-color: color-by-background($conversation-header-bg-color, $color-text-medium, $color-text-inverted) !default;
-$conversation-header-info-bg-color: $conversation-header-bg-color !default;
+$conversation-header-info-bg-color: $conversation-header-color !default;
 $conversation-header-action-button-color: normal !default;
 $conversation-header-action-button-bg-color: transparent !default;
 $conversation-header-actions-color: $color-text !default;
