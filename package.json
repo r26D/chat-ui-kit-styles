@@ -1,6 +1,6 @@
 {
   "name": "@chatscope/chat-ui-kit-styles",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "SCSS themes for @chatscope/chat-ui-kit-react library",
   "license": "MIT",
   "homepage": "https://chatscope.io/",
@@ -31,16 +31,16 @@
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
-    "@semantic-release/changelog": "5.0.1",
-    "@semantic-release/git": "9.0.0",
-    "@semantic-release/github": "7.1.1",
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/github": "8.0.7",
     "autoprefixer": "9.8.6",
     "chokidar-cli": "3.0.0",
-    "husky": "4.3.0",
+    "husky": "^4.3.8",
     "npm-run-all": "4.1.5",
     "postcss-cli": "7.1.2",
     "sass": "1.39.2",
-    "semantic-release": "17.2.4"
+    "semantic-release": "19.0.5"
   },
   "scripts": {
     "build:clean": "rm -Rf dist",
@@ -48,7 +48,7 @@
     "build:sass": "node ./scripts/build-all",
     "build": "npm-run-all -s build:clean build:sass build:autoprefixer",
     "prepare": "npm run build",
-    "pack": "yarn pack",
+    "pack": "npm pack",
     "watch": "chokidar 'themes/**/*.scss' -c 'npm-run-all -s build:sass build:autoprefixer'"
   },
   "husky": {
