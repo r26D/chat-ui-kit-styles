@@ -23,6 +23,10 @@
     "reusable",
     "responsive"
   ],
+  "exports": {
+	 "default" : "./dist/default",
+	 "jobward": "./dist/jobward"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/chatscope/chat-ui-kit-styles.git"
