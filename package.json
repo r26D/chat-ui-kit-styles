@@ -24,12 +24,9 @@
     "responsive"
   ],
   "exports": {
-	 "./dist/": "./dist/",
 	 "dist/": "./dist/",
-	 "./dist/default/*": "./dist/default/*",
-	 "dist/default/*": "./dist/*",
-	 "./dist/jobward/*": "./dist/jobward/*",
-	 "dist/jobward/*": "./dist/*"
+	 "dist/default/*": "./dist/default/*",
+	 "dist/jobward/*": "./dist/jobward/*"
   },
   "repository": {
     "type": "git",
