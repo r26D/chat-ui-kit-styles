@@ -1,6 +1,6 @@
 {
   "name": "@chatscope/chat-ui-kit-styles",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "SCSS themes for @chatscope/chat-ui-kit-react library",
   "license": "MIT",
   "homepage": "https://chatscope.io/",
@@ -24,16 +24,12 @@
     "responsive"
   ],
   "exports": {
-	 "default" : "./dist/default",
-	 "jobward": "./dist/jobward",
-	 "dist/default/styles.css" : "./dist/default/styles.css",
-	 "dist/default/styles.css.map" : "./dist/default/styles.css.map",
-	 "dist/default/styles.min.css" : "./dist/default/styles.min.css",
-	 "dist/default/styles.min.css.map" : "./dist/default/styles.min.css.map",
-	 "dist/jobward/styles.css" : "./dist/jobward/styles.css",
-	 "dist/jobward/styles.css.map" : "./dist/jobward/styles.css.map",
-	 "dist/jobward/styles.min.css" : "./dist/jobward/styles.min.css",
-	 "dist/jobward/styles.min.css.map" : "./dist/jobward/styles.min.css.map"
+	 "./dist/": "./dist/",
+	 "dist/": "./dist/",
+	 "./dist/default/*": "./dist/default/*",
+	 "dist/default/*": "./dist/*",
+	 "./dist/jobward/*": "./dist/jobward/*",
+	 "dist/jobward/*": "./dist/*"
   },
   "repository": {
     "type": "git",
