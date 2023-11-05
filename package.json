@@ -27,6 +27,8 @@
 	 "dist/": "./dist/",
 	 "dist/default/*": "./dist/default/*",
 	 "dist/jobward/*": "./dist/jobward/*"
+	 "./dist/jobward/styles.min.css": "./dist/jobward/styles.min.css",
+	 "dist/jobward/styles.min.css": "./dist/jobward/styles.min.css"
   },
   "repository": {
     "type": "git",
