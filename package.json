@@ -25,7 +25,15 @@
   ],
   "exports": {
 	 "default" : "./dist/default",
-	 "jobward": "./dist/jobward"
+	 "jobward": "./dist/jobward",
+	 "dist/default/styles.css" : "./dist/default/styles.css",
+	 "dist/default/styles.css.map" : "./dist/default/styles.css.map",
+	 "dist/default/styles.min.css" : "./dist/default/styles.min.css",
+	 "dist/default/styles.min.css.map" : "./dist/default/styles.min.css.map",
+	 "dist/jobward/styles.css" : "./dist/jobward/styles.css",
+	 "dist/jobward/styles.css.map" : "./dist/jobward/styles.css.map",
+	 "dist/jobward/styles.min.css" : "./dist/jobward/styles.min.css",
+	 "dist/jobward/styles.min.css.map" : "./dist/jobward/styles.min.css.map"
   },
   "repository": {
     "type": "git",
